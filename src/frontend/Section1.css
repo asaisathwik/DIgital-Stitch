@@ -1,0 +1,33 @@
+.hero-container {
+    background-image: url('https://images.unsplash.com/photo-1714917712724-2b11167b7c96?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRhaWxvcmluZ3xlbnwwfHwwfHx8MA%3D%3D'); 
+
+    /* background-image: url('https://cdn.pixabay.com/photo/2016/11/19/09/44/antique-1838324_1280.jpg'); */
+    background-size: cover;
+    background-position:center;
+    height: 90vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD700;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #b5ff53;
+}

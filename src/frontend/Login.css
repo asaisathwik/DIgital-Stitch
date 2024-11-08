@@ -1,0 +1,99 @@
+/* Container for the login interface */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  /* Role Selection buttons */
+  .role-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 10px;
+    background: #f7f7f7;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .role-selection button.active {
+    background: linear-gradient(90deg, #ff512f, #f09819);
+    color: #fff;
+  }
+  
+  /* Login form */
+  .login-form {
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forgot-password {
+    float: right;
+    font-size: 15px;
+    color: #007bff;
+    cursor: pointer;
+    
+  }
+  .signup {
+    float: left;
+    font-size: 15px;
+    color: #007bff;
+    cursor: pointer;  
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #ff512f, #f09819);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-btn:hover {
+    background: linear-gradient(90deg, #f09819, #ff512f);
+  }
+  
+  /* Helpline information */
+  .helpline {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .helpline span {
+    font-weight: bold;
+  }
+  
+
+  
